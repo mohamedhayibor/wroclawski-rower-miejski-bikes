@@ -1,0 +1,43 @@
+{
+  "name": "wroclawski-rower-miejski-bikes",
+  "version": "1.0.0",
+  "description": "Get real-time info on stations. Bikes available - docks available",
+  "main": "cli.js",
+  "bin": {
+    "bikes": "cli.js"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "keywords": [
+   "bike-sharing",
+   "bikes",
+   "sharing",
+   "commuting",
+   "cli",
+   "real-time"
+ ],
+ "dependencies": {
+    "chalk": "^1.1.3",
+    "meow": "^3.7.0",
+    "request": "^2.72.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedhayibor/wroclawski-rower-miejski-bikes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohamedhayibor/wroclawski-rower-miejski-bikes/issues"
+  },
+  "homepage": "https://github.com/mohamedhayibor/wroclawski-rower-miejski-bikes#readme"
+}
